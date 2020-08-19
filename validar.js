@@ -1,13 +1,12 @@
 function validar(){
-    var nombre
-    var apellidos
-    var correo
-    var usuario
-    var pass
-    var telefono
+    var nombre;
+    var apellidos;
+    var correo;
+    var usuario;
+    var pass;
+    var telefono;
 
     nombre = document.getElementById("nombre").value;
-
     if (nombre === ""){
         alert("Todos los campos son obligatorios");
         return false;
@@ -18,7 +17,6 @@ function validar(){
     }
     
     apellidos = document.getElementById("apellidos").value;
-
     if (apellidos === ""){
         alert("Todos los campos son obligatorios");
         return false;
@@ -29,7 +27,6 @@ function validar(){
     }
     
     correo = document.getElementById("correo").value;
-
     if (correo === ""){
         alert("Todos los campos son obligatorios");
         return false;
@@ -40,7 +37,6 @@ function validar(){
     }
     
     usuario = document.getElementById("usuario").value;
-
     if (usuario === ""){
         alert("Todos los campos son obligatorios");
         return false;
@@ -51,14 +47,12 @@ function validar(){
     }
     
     pass = document.getElementById("pass").value;
-
     if (pass === ""){
         alert("Todos los campos son obligatorios");
         return false;
     }
     
     telefono = document.getElementById("telefono").value;
-
     if (telefono === ""){
         alert("Todos los campos son obligatorios");
         return false;
